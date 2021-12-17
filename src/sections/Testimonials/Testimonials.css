@@ -1,0 +1,84 @@
+.Testimonial {
+  height: 100%;
+  background: #eeeef0;
+}
+.padding-5 {
+  padding-top: 4rem;
+}
+.padding-testimonial {
+  padding-top: 9.5rem;
+}
+.owl-dots {
+  padding-bottom: 3rem;
+}
+
+.item .card {
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 4px;
+  text-align: center;
+  height: 400px !important;
+}
+.item .card p {
+  top: 179px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 140.62%;
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.item .card h5 {
+  top: 326px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 140.62%;
+  /* or 21px */
+
+  text-align: center;
+
+  color: #000000;
+}
+.quote {
+  width: 155px;
+  /* align-items: center; */
+  /* justify-content: center; */
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  padding-left: 2.1rem;
+  padding-top: 6rem;
+}
+@media (max-width: 576px) {
+  .Testimonial {
+    height: 110% !important;
+  }
+  .padding-5 {
+    padding-top: 2rem;
+  }
+  .item .card {
+    height: 354px !important;
+  }
+  .padding-testimonial {
+    padding-top: 4rem;
+    padding-left: 0 !important;
+  }
+}
+@media (max-width: 768px) {
+  .padding-5 {
+    padding-top: 2rem;
+  }
+  .quote {
+    padding-top: 3rem;
+  }
+}
+@media (max-width: 1200px) {
+  .padding-testimonial {
+    padding-left: 2rem;
+  }
+}

@@ -1,0 +1,217 @@
+.Outreach {
+  height: 100%;
+}
+.padding-4 {
+  padding-top: 5.5rem;
+  padding-bottom: 3.5rem;
+}
+.jumbotron-contact {
+  background-image: url("../../carrer-back.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.padding-3 {
+  padding-top: 3rem;
+}
+footer {
+  background: #2b2b2b;
+}
+.footer-options {
+  padding-left: 16rem;
+}
+.copyright {
+  font-size: 1rem;
+  color: white;
+  text-align: right;
+}
+
+.outreach-pad h1 {
+  padding-top: 2rem;
+}
+.outreach-pad p {
+  padding-top: 2rem;
+}
+.footer-options {
+  padding-top: 2rem;
+}
+.lead-outreach-para {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.3rem;
+  line-height: 29px;
+
+  color: #868686;
+}
+.lead-outreach {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+
+  /* or 0% */
+
+  letter-spacing: 1px;
+
+  color: #ffffff;
+}
+.mob-style-2 h1 {
+  font-size: 2rem;
+  font-weight: normal;
+  font-family: Comfortaa;
+}
+.underline-outreach {
+  border: white;
+  border-top: 1px;
+  height: 3px;
+  background-color: white;
+}
+.pagebreak {
+  padding-top: 7rem;
+}
+.pagebreak-outreach {
+  padding-bottom: 2rem;
+}
+.contact-at {
+  font-size: 25px;
+}
+@media (max-width: 576px) {
+  footer {
+    height: 62% !important;
+  }
+  .jumbotron-contact {
+    margin-bottom: 0;
+  }
+  .lead-outreach-para {
+    font-size: 1rem;
+  }
+  .lead-outreach {
+    font-size: 1rem;
+  }
+  .mob-style-2 h1 {
+    font-size: 1.5rem;
+  }
+  .mob-style h2 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .mob-style p {
+    text-align: center;
+  }
+  .mob-style-2 h1 {
+    text-align: center;
+  }
+  .mob-style-2 p {
+    text-align: center;
+  }
+  .footer-options {
+    padding-left: 1rem;
+  }
+  .Outreach {
+    height: 1025px;
+  }
+  .fb {
+    width: 33.33% !important;
+    padding-left: 11% !important;
+  }
+  .lnk {
+    width: 33.33% !important;
+    padding-left: 12% !important;
+  }
+  .insta {
+    width: 33.33% !important;
+    padding-left: 10% !important;
+  }
+  .copyright {
+    padding-left: 2rem;
+    text-align: center;
+    font-size: 0.85rem;
+  }
+  .padding-4 {
+    padding-left: 0 !important;
+  }
+  .outreach-pad h1 {
+    padding-left: 0 !important;
+  }
+  .outreach-pad p {
+    padding-left: 0 !important;
+  }
+}
+@media (max-width: 768px) {
+  .jumbotron-contact {
+    margin-bottom: 0;
+  }
+  .mob-style h2 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .mob-style p {
+    text-align: center;
+  }
+  .mob-style-2 h1 {
+    text-align: center;
+  }
+  .mob-style-2 p {
+    text-align: center;
+  }
+  .footer-options {
+    padding-left: 1rem !important;
+  }
+
+  .fb {
+    width: 120px;
+    padding-left: 45px;
+  }
+  .lnk {
+    width: 120px;
+    padding-left: 43px;
+  }
+  .insta {
+    width: 120px;
+    padding-left: 50px;
+  }
+  .copyright {
+    padding-left: 2rem;
+    text-align: center;
+    font-size: 0.85rem;
+  }
+  footer {
+    height: 100% !;
+  }
+}
+@media (max-width: 1200px) {
+  .padding-4 {
+    padding-left: 2rem;
+  }
+  .outreach-pad h1 {
+    padding-left: 2rem;
+  }
+  .outreach-pad p {
+    padding-left: 2rem;
+  }
+  .fb {
+    padding-left: 2rem;
+  }
+  .lnk {
+    padding-left: 2rem;
+  }
+  .insta {
+    padding-left: 2rem;
+  }
+}
+@media (max-width: 992px) {
+  .footer-options {
+    padding-left: 11rem;
+  }
+  .lead-outreach-para {
+    font-size: 1.2rem;
+  }
+  .contact-at {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+}

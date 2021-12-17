@@ -1,0 +1,192 @@
+.AboutUs {
+  height: 100%;
+}
+.padding {
+  padding-top: 9rem;
+}
+.infographics {
+  padding-top: 5rem;
+}
+.underline-page {
+  border: black;
+  border-top: 2px;
+  height: 3px;
+  background-color: black;
+}
+.pagebreak {
+  padding-top: 7rem;
+}
+.display-4 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.25rem;
+  line-height: 56px;
+
+  color: #2a3bc8;
+}
+.lead {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.3rem;
+  line-height: 32px;
+  /* or 128% */
+
+  /* TextColors/Headers */
+
+  color: #30233d;
+}
+.para-space {
+  padding-top: 2rem;
+}
+.para-head-space {
+  padding-top: 3rem;
+}
+.infographic-style h5 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 32px;
+  /* identical to box height, or 107% */
+
+  text-align: center;
+
+  /* TextColors/Headers */
+
+  color: #30233d;
+  padding-top: 1rem;
+}
+
+.infografic-style-p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+
+  /* or 110% */
+
+  text-align: center;
+
+  /* TextColors/Headers */
+
+  color: #30233d;
+}
+@media (max-width: 576px) {
+  .para-head-space {
+    padding-top: 1rem;
+  }
+  .lead {
+    font-size: 16px !important;
+    text-align: center;
+  }
+  .display-4 {
+    font-size: 1.5rem !important;
+  }
+  .infographic-style {
+    padding-bottom: 2rem;
+  }
+  .AboutUs {
+    height: 1550px;
+  }
+  .infographic-style h5 {
+    font-size: 26px;
+  }
+  .infographic-style p {
+    font-size: 18px;
+  }
+  .padding {
+    padding-top: 5rem;
+  }
+
+  .underline-page {
+    display: none;
+  }
+  .pagebreak {
+    padding-top: 5rem !important;
+  }
+  .padding {
+    padding-left: 0 !important;
+  }
+  .infographics {
+    padding-left: 0 !important;
+  }
+}
+@media (max-width: 768px) {
+  .para-head-space {
+    padding-top: 1rem;
+  }
+  .lead {
+    font-size: 18px;
+    text-align: center;
+  }
+  .display-4 {
+    font-size: 32px;
+  }
+  .infographic-style {
+    padding-bottom: 2rem;
+  }
+  .AboutUs {
+    height: 1550px;
+  }
+  .infographic-style h5 {
+    font-size: 26px;
+  }
+  .infographic-style p {
+    font-size: 18px;
+  }
+  .padding {
+    padding-top: 5rem;
+  }
+
+  .underline-page {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .pagebreak {
+    padding-top: 4.5rem !important;
+  }
+  .para-head-space {
+    padding-top: 1rem;
+  }
+  .lead {
+    font-size: 18px;
+    text-align: center;
+  }
+  .display-4 {
+    font-size: 32px;
+  }
+  .infographic-style {
+    padding-bottom: 2rem;
+  }
+  .AboutUs {
+    height: 161%;
+  }
+  .infographic-style h5 {
+    font-size: 1.25rem;
+  }
+  .infographic-style p {
+    font-size: 16px;
+  }
+  .padding {
+    padding-top: 5rem;
+    padding-left: 3rem;
+  }
+
+  .pagebreak {
+    padding-top: 5rem !important;
+  }
+  .underline-page {
+    display: none;
+  }
+}
+@media (max-width: 1200px) {
+  .padding {
+    padding-left: 2rem;
+  }
+  .infographics {
+    padding-left: 2rem;
+  }
+}

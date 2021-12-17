@@ -1,0 +1,11 @@
+/* set the overriding variables */
+$grid-breakpoints: (
+  xs: 0,
+  xss: 340px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+);
+
+@import "node_modules/bootstrap/scss/bootstrap";

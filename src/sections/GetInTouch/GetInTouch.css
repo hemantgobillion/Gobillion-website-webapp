@@ -1,0 +1,15 @@
+.GetInTouch {
+  height: 100%;
+}
+.form-check-input {
+  height: 1rem;
+  width: 1rem;
+}
+.form-check {
+  padding-bottom: 1rem;
+}
+@media (max-width: 576px) {
+  .GetInTouch {
+    height: 222%;
+  }
+}

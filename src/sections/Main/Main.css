@@ -1,0 +1,285 @@
+.btn-div-one {
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.jumbotron-main {
+  height: 627px;
+  padding-top: 150px;
+  margin-top: 5.5rem;
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1);
+}
+.base-dot {
+  vertical-align: baseline;
+}
+
+.shop-button {
+  background-color: #f05a2b;
+  border: none;
+  color: #fff;
+  padding: 12px 26px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.dow-button {
+  background-color: #2a3bc8;
+  border: none;
+  color: #fff;
+  padding: 18px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 35px;
+  margin-left: 20px;
+}
+.btn-div {
+  widows: 960px;
+  margin: 0 auto;
+}
+.display-4 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.25rem;
+  line-height: 75px;
+
+  color: #313235;
+}
+.site-head {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 75px;
+
+  color: #313235;
+}
+.site-head span {
+  color: #f05a2b;
+}
+.head-para {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 33px;
+  font-weight: bold;
+
+  color: #3e3f43;
+}
+.head-para-tag {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 33px;
+  padding-top: 1rem;
+
+  color: #3e3f43;
+}
+.big-banner {
+  background-image: url("../../background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.btn-light {
+  background: #2a3bc8;
+}
+.get-app {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #ffffff;
+  height: 43px;
+}
+@media (max-width: 576px) {
+  .btn-div-one {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .big-banner {
+    background-image: url("../../hello.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+  .shop-button {
+    background-color: #f05a2b;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  .dow-button {
+    background-color: #2a3bc8;
+    border: none;
+    padding: 10px;
+
+    color: #fff;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left: 20px;
+  }
+  .display-4 {
+    text-align: center;
+    font-size: 40px;
+  }
+  .head-para {
+    text-align: center;
+    font-size: 18px !important;
+    padding-bottom: 2rem;
+    font-weight: bold;
+  }
+  .head-para-tag {
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 2rem;
+  }
+  .big-banner {
+    padding-top: 70px;
+  }
+  .app {
+    font-size: 1.1rem !important;
+  }
+  .get-app {
+    height: 43px;
+  }
+  .site-head {
+    text-align: center;
+    font-size: 36px;
+  }
+  .base-dot {
+    width: 12px;
+  }
+  .app-input ::placeholder {
+    font-size: 70% !important;
+  }
+  .app-prepend {
+    font-size: 0.8rem !important;
+  }
+  .for-786-992 {
+    padding-left: 5px !important;
+  }
+}
+@media (max-width: 992px) {
+  .big-banner {
+    background-image: url("../../hello.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+  .AboutUs {
+    height: 220vh;
+  }
+  .display-4 {
+    text-align: center;
+    font-size: 45px;
+  }
+  .head-para {
+    text-align: center;
+    font-size: 1.6rem;
+    padding-bottom: 2rem;
+    font-weight: bold;
+  }
+  .big-banner {
+    padding-top: 70px;
+  }
+  .app {
+    font-size: 1.1rem !important;
+  }
+  .get-app {
+    height: 43px;
+  }
+  .site-head {
+    text-align: center;
+    font-size: 2.5rem !important;
+  }
+  .base-dot {
+    width: 12px;
+  }
+  .col-input {
+    width: 450px !important;
+  }
+  .for-786-992-main {
+    margin: auto !important;
+  }
+  .for-786-992 {
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 768px) {
+  .big-banner {
+    background-image: url("../../hello.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+  .AboutUs {
+    height: 220vh;
+  }
+  .display-4 {
+    text-align: center;
+    font-size: 40px;
+  }
+  .head-para {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 2rem;
+    font-weight: bold;
+  }
+  .big-banner {
+    padding-top: 70px;
+  }
+  .app {
+    font-size: 1.1rem !important;
+  }
+  .get-app {
+    height: 43px;
+  }
+  .site-head {
+    text-align: center;
+    font-size: 1.95rem !important;
+  }
+  .base-dot {
+    width: 12px;
+  }
+  .col-input {
+    width: 450px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .get-app {
+    font-size: 11px;
+  }
+}
